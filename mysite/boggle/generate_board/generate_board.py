@@ -10,6 +10,6 @@ def make_dicelist_from_file(filename):
 	return [s.strip().split(',') for s in open(filename, 'r').readlines()]
 
 
-classic_four_dice = make_dicelist_from_file('classic_four_dice.csv')
-new_four_dice = make_dicelist_from_file('new_four_dice.csv')
+classic_four_dice = make_dicelist_from_file('boggle/generate_board/classic_four_dice.csv')
+new_four_dice = make_dicelist_from_file('boggle/generate_board/new_four_dice.csv')
 
